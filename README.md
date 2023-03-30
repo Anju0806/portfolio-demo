@@ -44,7 +44,8 @@ THEN I am presented with a responsive layout that adapts to my viewport.
 N/A
 
 ## Screenshots
-/assets/images/screencapture.png
+/assets/images/scr![screencapture](https://user-images.githubusercontent.com/126565826/228777709-693262a6-094b-4f60-829e-d1666268e2c5.png)
+eencapture.png
 
 ## License
 
