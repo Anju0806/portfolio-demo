@@ -123,12 +123,14 @@ height:10rem
   
 }
 #aboutme .note{
-  padding-left: 6rem;
+  padding-left: 4rem;
+  padding-right: 3rem;;
   margin-right: 5rem;
-  
+  text-align:justify;
 }
 #aboutme .title{
-  padding-top: 3rem;
+  margin-left: 2rem;
+  
 }
 /*aboutme styling untill here----------------------------------------------
 ----------------------------------------------------------------------------*/
@@ -139,7 +141,7 @@ height:10rem
 #Work,
 #Contact {
     display: flex;
-    padding: 1rem;
+    padding-left: 2.5rem;
     width: 90%;
     text-align: justify;
     font-family: 'Lexend', sans-serif;
@@ -173,7 +175,8 @@ height:10rem
 
 
 .portfolio {
-  margin-left: 6rem;
+  margin-left: 4rem;
+  margin-right: 3rem;
   background-color: rgb(44, 194, 194);
     display: flex;
     flex-direction: column;
