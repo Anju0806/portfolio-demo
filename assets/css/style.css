@@ -15,7 +15,7 @@ header{
   display: flex;
   flex-wrap: wrap;
   background-color:rgb(65, 84, 94);
-  background-color: rgb(131, 94, 14);    
+  background-color: rgb(163, 121, 32);    
 }
 /* header h1 is the name label goes in top left, styling starts here 
 ------------------------------------------------------------------*/
@@ -30,6 +30,7 @@ header h1{
   padding-right: 1.5rem;
   /* margin-left: 0.1rem;  add if you need to move name to right */
 }
+
 /* nav-list class set of links in the navigation, styling starts here 
 -------------------------------------------------------------------*/
 .nav-list{
@@ -172,8 +173,6 @@ height:10rem
   z-index: 1;
 }
 
-
-
 #Work .title {
   background-color: rgb(26, 152, 186);
   position: absolute;
@@ -184,7 +183,6 @@ height:10rem
   font-size: large;
 
 }
-
 
 .portfolio {
   margin-left: 4rem;
@@ -199,7 +197,6 @@ height:10rem
 a#pro1 {
     display: block;
     background-image: url('/assets/images/touch.webp');
-    
     background-size: cover;
     background-position: top;
     width: 100%;
@@ -210,7 +207,6 @@ a#pro1 {
 
 a#pro2 {
     display: block;
-    
     background-image: url('/assets/images/vertibuildings.jpeg');
     background-size: cover;
     background-position: center;
@@ -242,20 +238,16 @@ a#pro3 {
     align-self: center;
     width: 100%;
     position: relative;
-
 }
 
-
 .Border {
-  border: 3px solid  rgb(26, 152, 186);
+  border: 3px solid var(--blue);
   width: 100%;
 }
 
-
-
 .smTitle {
     position: absolute;
-    background-color: rgb(26, 152, 186);
+    background-color: var(--blue);
     margin-top: 142px;
     padding: 20px;
     z-index: 1;
@@ -280,12 +272,9 @@ a#pro3:hover {
     margin-top: 30px;
 }
 
-
 .contactInfo li a {
     text-decoration: none;
-    color: rgb(90, 55, 5); 
-  
-  
+    color: rgb(90, 55, 5);  
 }
 
 .contactInfo li a:hover {
@@ -293,7 +282,6 @@ a#pro3:hover {
     color: rgb(210, 212, 192);
     background-color: beige;
 }
-
 
 
 @media only screen and (max-width:768px) 
@@ -315,14 +303,6 @@ a#pro3:hover {
     }
 }
 
-@media only screen and (max-width:780px) {
-    
-
-
-}
-
-/* work styling untill here-------------------------------------------------------
-----------------------------------------------------------------------------*/
 
 /* footer styling starts here --------------------------------------------
 ---------------------------------------------------------------------------*/
@@ -331,7 +311,7 @@ footer h3{
   text-align :center;
   flex-shrink: 0;
   padding: 20px;
-  background-color: rgb(131, 94, 14); 
+  background-color: rgb(143, 111, 41);
   color:aliceblue;
 }
 /* -------------------------------------------------------------------------
