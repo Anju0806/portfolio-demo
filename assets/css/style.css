@@ -276,15 +276,16 @@ a#pro3:hover {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    font-size: 30px;
+   
     margin-top: 30px;
 }
 
 
 .contactInfo li a {
     text-decoration: none;
-    color: rgb(203, 152, 169);
-
+    color: rgb(90, 55, 5); 
+  
+  
 }
 
 .contactInfo li a:hover {
@@ -308,25 +309,15 @@ a#pro3:hover {
     }
 
     .contactInfo li {
+        margin-top: 2rem;;
         align-self: center;
-        line-height: 50px;
+       
     }
 }
 
 @media only screen and (max-width:780px) {
-    .navContainer {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-    }
+    
 
-    .linkContainer {
-        display: flex;
-        flex-direction: column;
-        display: flex;
-        width: 100%;
-    }
 
 }
 
