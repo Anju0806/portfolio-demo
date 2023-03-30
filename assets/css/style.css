@@ -2,7 +2,7 @@ body{
   font-family: sans-serif;
   box-sizing: border-box;
   width:100%;
-  background-color: rgb(227, 250, 250);
+  background-color: rgb(190, 155, 78);
 }
 
 
@@ -15,13 +15,13 @@ header{
   display: flex;
   flex-wrap: wrap;
   background-color:rgb(65, 84, 94);
-       
+  background-color: rgb(131, 94, 14);    
 }
 /* header h1 is the name label goes in top left, styling starts here 
 ------------------------------------------------------------------*/
 header h1{
   margin-right: auto;
-  background-color: rgb(53, 173, 173);
+  background-color: rgb(62, 159, 159);
   color: var(--grey);  
   /* add relative space padding to h1 element */
   padding-left: 3rem;
@@ -109,252 +109,293 @@ height:10rem
 ----------------------------------------------------------------------------*/
 
 
-/* Aboutme section styling starts here --------------------------------------
+
+
+
+/* aboutme with title and a note styling starts here-------------------------
 -----------------------------------------------------------------------------
 ----------------------------------------------------------------------------*/
 
-#aboutme {
-  display: flex;    
-  justify-content: center;
-  gap: 2rem;
-  padding-right: 1rem;;
-  margin-top: 4.5rem;
-  margin-left: 6rem;
-  margin-right: 3rem; 
-}
-
-#aboutme .title {
-  flex-grow: 2;
-  padding-right: 1rem;
-  border-right: 4px solid;
-  border-color: rgb(7, 7, 8);
-}
-
-#aboutme .note {
-  flex-grow: 3;
-}
-
-@media screen and (max-width: 768px) {
-  #aboutme {
-    flex-wrap: wrap;
-    margin-top: 0.1rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
+#aboutme{
+  display: flex;
+  padding: 10px;
   
-  #aboutme .title {
-    border:none;
-    border-bottom: 4px solid rgb(93, 100, 100);
-  } 
+  
+}
+#aboutme .note{
+  padding-left: 6rem;
+  margin-right: 5rem;
+  
+}
+#aboutme .title{
+  padding-top: 3rem;
 }
 /*aboutme styling untill here----------------------------------------------
 ----------------------------------------------------------------------------*/
 
 
+/* meeras code */
 
-/* adding a vertical line throughout the grid section -------------------------
------------------------------------------------------------------------------
----------------------------------------------------------------------------*/
-
-.vl{
-  border-left:4px solid black;
-  height:65rem;
-  position: absolute;
-  left:13%;
-  margin: left -3px;
-  top: 43rem;
-}
-
-@media (max-width: 800px) {
-  .vl {
-    display: none;
-  }
-}
-/*-------------------------------------------------------------------------
-----------------------------------------------------------------------------*/
-
-/* work section paste here */
-
-/* contactme section styling starts here --------------------------------------
------------------------------------------------------------------------------
-----------------------------------------------------------------------------*/
-
-#contactme {
-  display: flex;
-  margin-top: 2.5rem;/* 
-  justify-content: stretch; */
-  gap: 10rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  /* 
-  padding-right: 1rem; */      
-}
-
-#contactme .title {
-  padding-right: 2rem; 
-  border-right: 4px solid;
-  border-color: rgb(7, 7, 8); 
-}
-
-#contactme .nav-list a{
-  justify-content: space-around;
-  color: rgb(175, 107, 13); 
-
-}
-
-@media screen and (max-width: 768px) {
-   #contactme { 
-    flex-wrap: wrap;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    gap:0rem;
-   }
-   #contactme .title {
-    border:none;
-    padding-right: 25rem;;
-    border-bottom: 4px solid rgb(93, 100, 100);
-   }
-   #contactme .nav-list {
+#Work,
+#Contact {
+    display: flex;
+    padding: 1rem;
+    width: 90%;
+    text-align: justify;
+    font-family: 'Lexend', sans-serif;
     
-    margin-top: 3rem;
+
+}
+#Work .title1{
+  display: flex;
+  position:relative;
+  padding: 5px;
+  z-index: 1;
+  
+  
+}
+
+#Work h1,
+#Contact h1 {
+  padding: 10px;
+}
+
+#Work .title {
+  background-color: rgb(26, 152, 186);
+  position: absolute;
+  /* background-color: rgb(203, 152, 169); */
+  align-self: flex-end;
+  padding: 18px;
+  z-index: 1;
+  font-size: large;
+
+}
+
+
+.portfolio {
+  margin-left: 6rem;
+  background-color: rgb(44, 194, 194);
     display: flex;
     flex-direction: column;
-   }
+    width: 100%;
+    font-family: 'Lexend', sans-serif;
 }
 
-  /* footer styling starts here --------------------------------------------
----------------------------------------------------------------------------*/
+a#pro1 {
+    display: block;
+    background-image: url('/assets/images/touch.webp');
+    
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 300px;
+    z-index: 0;
 
-footer h3{
-  text-align :center;
-  flex-shrink: 0;
-  padding: 20px;
-  background: #060f17;
-  color:aliceblue;
-}
-/* -------------------------------------------------------------------------
-----------------------------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* work section styling starts here ---------------------------------------
------------------------------------------------------------------------------
-----------------------------------------------------------------------------*/
-#main{
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  padding-right: 1rem;
-  margin-top: 4.5rem;
-  margin-left: 6rem;
-  margin-right: 3rem; 
-  position: relative;
-  flex-wrap: wrap;
 }
 
-#main .title{
-  flex-grow: 2; 
-  /* border-right: 4px solid; */  
+a#pro2 {
+    display: block;
+    
+    background-image: url('/assets/images/vertibuildings.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+
 }
 
-#main .imgHolder{
-  width: 80%;
-  flex-grow: 3;  
-  height: 30rem;
-  opacity: 0.6;
-  border:8px solid rgb(65, 84, 94);
-  /* border:10px solid chocolate; */
+a#pro3 {
+    display: block;
+    background-image: url('/assets/images/books.webp');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+
 }
-#main:hover .imgHolder{
-  opacity: 0.8;
+
+a#pro1,
+a#pro2,
+a#pro3 {
+    font-family: 'Lexend', sans-serif;
+}
+
+.smallImg,
+.smallImg2,
+.largeImg {
+
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 100%;
+    position: relative;
+
 }
 
 
-@media (max-width: 800px) {
-  .imgHolder, .item-left {
-    flex: 80%;
-  }
+.Border {
+  border: 3px solid  rgb(26, 152, 186);
+  width: 100%;
 }
 
 
-/* Making a four box flex box */
-.grid{
-  
-  display: flex;
-  gap: 0.8rem;
-  margin-top: .5rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-left: 7rem;
-  margin-right: 2rem;
-  padding-left: 6rem;
-  padding-right: 0rem;
-} 
 
-
-.grid .item-grid1{ 
-
-
-  width: 45%;
-  height: 5rem;
-  opacity: 0.6;
-  border:8px solid rgb(65, 84, 94);
+.smTitle {
+    position: absolute;
+    background-color: rgb(26, 152, 186);
+    margin-top: 142px;
+    padding: 20px;
+    z-index: 1;
+    font-size: medium;
 }
-.grid .item-grid2{ 
-  width: 45%;
-  height: 5rem;
-  opacity: 0.6;
-  border:8px solid rgb(65, 84, 94);
+
+a#pro1:hover,
+a#pro2:hover,
+a#pro3:hover {
+    opacity: 0.5;
+}
+
+.contactContainer {
+    width: 100%;
+}
+
+.contactInfo {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+
+.contactInfo li a {
+    text-decoration: none;
+    color: rgb(203, 152, 169);
+
+}
+
+.contactInfo li a:hover {
+    text-decoration: none;
+    color: rgb(210, 212, 192);
+    background-color: beige;
 }
 
 
 
 
-/* adding hover effects to grid */
-.item-grid1:hover{
-  opacity: 0.9;
+/*Media Queries*/
+@media only screen and (max-width: 56.25em) {
+    .header__logo-img-cont {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-right: 1.2rem;
+    }
 }
-.item-grid2:hover{
-  opacity: 0.9;
+
+.header__logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
 }
 
+.header__logo-sub {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.linkContainer {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 70%;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .header__content {
+        padding: 0 2rem;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    .header__logo-img-cont {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-right: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    .header__link {
+        padding: 3rem 1.8rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .navContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .linkContainer {
+        display: flex;
+        width: 100%;
+    }
+
+   
+   /*  #Work,
+    #Contact {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+ 
+    
+    #Work h1,
+    #Contact h1 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 0;
+    }  */
 
 
 
-/*  correction required here */
-/*  @media (max-width: 800px) {
-  #swork {
-    flex: 100%;
-  }
-} */
+    .smallImg,
+    .smallImg2 {
+        flex-direction: column;
+    }
 
+    .contactInfo {
+        flex-direction: column;
+        margin: 0;
+    }
 
+    .contactInfo li {
+        align-self: center;
+        line-height: 50px;
+    }
+}
 
+@media only screen and (max-width:480px) {
+    .navContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
 
+    .linkContainer {
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
 
-
-
-
-
-
-
-
-
+}
