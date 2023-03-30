@@ -1,13 +1,26 @@
 # 02 Advanced CSS: Portfolio
 
+## Description
 
-## User Story
+This Portfolio-demo webpage is created to view a potential employee's deployed portfolio of work samples.
+It contains notes on HTML ,CSS files. 
 
 
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position.
+## Installation
 
+N/A
+
+## Usage
+To use Portfolio-demo webpage  webpage, you can access the content using the navigation bar, The header is fixed to top,on the scroll down page. 
+It contains link to a section with titled images of the developer's applications. It is presented with a responsive layout that adapts to my viewport.
+
+
+## Links
+The URL of the GitHub repository that contains the code: 
+https://github.com/Anju0806/portfolio-demo.git
+
+The URL of the deployed application:
+https://anju0806.github.io/portfolio-demo/
 
 
 ## Acceptance Criteria
@@ -26,3 +39,13 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport.
 
+## Credits
+
+N/A
+
+## Screenshots
+/assets/images/screencapture.png
+
+## License
+
+Please refer to the LICENSE in the repo.
