@@ -196,7 +196,7 @@ height:10rem
 
 a#pro1 {
     display: block;
-    background-image: url('/assets/images/touch.webp');
+    background-image: url('assets/images/touch.webp');
     background-size: cover;
     background-position: top;
     width: 100%;
@@ -207,7 +207,7 @@ a#pro1 {
 
 a#pro2 {
     display: block;
-    background-image: url('/assets/images/vertibuildings.jpeg');
+    background-image: url('assets/images/vertibuildings.jpeg');
     background-size: cover;
     background-position: center;
     height: 200px;
@@ -216,7 +216,7 @@ a#pro2 {
 
 a#pro3 {
     display: block;
-    background-image: url('/assets/images/books.webp');
+    background-image: url('assets/images/books.webp');
     background-size: cover;
     background-position: center;
     height: 200px;
