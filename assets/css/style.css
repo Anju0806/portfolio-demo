@@ -188,15 +188,15 @@ height:10rem
   margin-left: 4rem;
   margin-right: 3rem;
   background-color: rgb(44, 194, 194);
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    font-family: 'Lexend', sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: 'Lexend', sans-serif;
 }
 
 a#pro1 {
     display: block;
-    background-image: url('assets/images/touch.webp');
+    background-image: url('../assets/images/touch.webp');
     background-size: cover;
     background-position: top;
     width: 100%;
@@ -207,16 +207,15 @@ a#pro1 {
 
 a#pro2 {
     display: block;
-    background-image: url('assets/images/vertibuildings.jpeg');
+    background-image: url('../assets/images/vertibuildings.jpeg');
     background-size: cover;
     background-position: center;
     height: 200px;
-
 }
 
 a#pro3 {
     display: block;
-    background-image: url('assets/images/books.webp');
+    background-image: url('../assets/images/books.webp');
     background-size: cover;
     background-position: center;
     height: 200px;
